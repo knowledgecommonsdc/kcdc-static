@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en-us" >
+<head>
+    <title>Log in | Django site admin</title>
+    <meta charset="utf-8" />
+    <meta name="robots" content="NONE,NOARCHIVE" />
+    <!-- STYLESHEETS -->
+    
+        <link href="/static/grappelli/jquery/ui/css/custom-theme/jquery-ui-1.8.18.custom.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="/static/grappelli/stylesheets/screen.css" rel="stylesheet" type="text/css" media="screen" />
+        
+            <link href="/static/grappelli/stylesheets/mueller/grid/output.css" rel="stylesheet" type="text/css" media="screen" />
+        
+    
+    <!-- EXTRASTYLES -->
+    
+    <!-- JAVASCRIPTS -->
+    
+        <script type="text/javascript">window.__admin_media_prefix__ = "/static/grappelli/";</script>
+        <script type="text/javascript" charset="utf-8">
+            // GLOBALS
+            var grappelli = {},
+                ADMIN_URL = "/admin/",
+                MODEL_URL_ARRAY = {"1": {"pk": 1, "app": "auth", "model": "permission"}, "2": {"pk": 2, "app": "auth", "model": "group"}, "3": {"pk": 3, "app": "auth", "model": "user"}, "4": {"pk": 4, "app": "contenttypes", "model": "contenttype"}, "5": {"pk": 5, "app": "sessions", "model": "session"}, "6": {"pk": 6, "app": "sites", "model": "site"}, "7": {"pk": 7, "app": "admin", "model": "logentry"}, "8": {"pk": 8, "app": "south", "model": "migrationhistory"}, "9": {"pk": 9, "app": "classes", "model": "session"}, "10": {"pk": 10, "app": "classes", "model": "location"}, "11": {"pk": 11, "app": "classes", "model": "event"}, "12": {"pk": 12, "app": "classes", "model": "registration"}, "13": {"pk": 13, "app": "accounts", "model": "extendedprofile"}, "14": {"pk": 14, "app": "userena", "model": "userenasignup"}, "15": {"pk": 15, "app": "guardian", "model": "userobjectpermission"}, "16": {"pk": 16, "app": "guardian", "model": "groupobjectpermission"}, "17": {"pk": 17, "app": "easy_thumbnails", "model": "source"}, "18": {"pk": 18, "app": "easy_thumbnails", "model": "thumbnail"}, "19": {"pk": 19, "app": "classes", "model": "bio"}, "20": {"pk": 20, "app": "classes", "model": "role"}, "21": {"pk": 21, "app": "pinata", "model": "page"}, "22": {"pk": 22, "app": "pinata", "model": "notice"}, "23": {"pk": 23, "app": "pinata", "model": "slide"}, "24": {"pk": 24, "app": "pigeon", "model": "post"}, "25": {"pk": 25, "app": "csvimport", "model": "csvimport"}, "26": {"pk": 26, "app": "csvimport", "model": "importmodel"}, "27": {"pk": 27, "app": "pinata", "model": "sponsor"}, "28": {"pk": 28, "app": "pinata", "model": "pressclipping"}, "29": {"pk": 29, "app": "pinata", "model": "snippet"}, "30": {"pk": 30, "app": "classes", "model": "partner"}, "31": {"pk": 31, "app": "squirrel", "model": "meeting"}, "32": {"pk": 32, "app": "squirrel", "model": "meeting_registration"}},
+                DATE_FORMAT = "%Y-%m-%d",
+                TIME_FORMAT = "%H:%M:%S",
+                DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S";
+        </script>
+        <!-- jQuery, jQuery-UI -->
+        <script src="/static/grappelli/jquery/jquery-1.7.2.min.js" type="text/javascript"></script>
+        <script src="/static/grappelli/jquery/ui/js/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
+        
+            <!-- Grappelli Minified -->
+            <script src="/static/grappelli/js/grappelli.min.js" type="text/javascript"></script>
+        
+    
+    <!-- EXTRAHEAD -->
+    
+    
+    <script type="text/javascript">
+        (function($) {
+            $(window).load(function(){ $('#id_username').focus(); });
+        })(grp.jQuery);
+    </script>
+
+</head>
+<body class="grp-login">
+    <div id="grp-container">
+
+        <!-- HEADER -->
+        <header id="grp-header" class="">
+            
+
+                <!-- NAVIGATION -->
+                
+
+<div id="grp-navigation">
+    <h1 id="grp-admin-title">Knowledge Commons DC: Admin</h1>
+    
+    
+    
+</div>
+
+<script type="text/javascript" charset="utf-8">
+    (function($) {
+        $(document).ready(function() {
+            $("#grp-navigation .grp-collapse").grp_collapsible();
+        });
+    })(grp.jQuery);
+</script>
+
+
+                
+                <!-- CONTEXT NAVIGATION -->
+                <div id="grp-context-navigation">
+                    <nav id="grp-breadcrumbs" class="">
+                        <header style="display:none"><h1>Breadcrumbs</h1></header>
+                        
+                            <ul>
+                                <li><a href="/">Home</a></li>
+                                
+                                    <li> &rsaquo; Log in</li>
+                                
+                            </ul>
+                        
+                    </nav>
+                    <nav id="grp-page-tools">
+                        <header style="display:none"><h1>Page Tools</h1></header>
+                        
+                    </nav>
+                </div>
+            
+        </header>
+
+        <!-- CONTENT -->
+        <article id="grp-content" class="">
+            
+            <!-- MESSAGES -->
+            
+
+            <!-- CONTENT TITLE -->
+            <header id="grp-content-title">
+                
+                <h1>Log in</h1>
+                
+            </header>
+
+            <!-- CONTENT-CONTAINER -->
+            <div id="grp-content-container">
+                
+    <div class="g-d-c g-d-10 g-centered">
+        <form action="/admin/classes/event/160/\http:/knowledgecommonsdc.org/images/uploads/navy-yard-1936.jpg\/" method="post"><input type='hidden' name='csrfmiddlewaretoken' value='292bUNsp4Lv7SLmNH2ypEYqaohfa2jur' />
+            <fieldset class="grp-module grp-module-login">
+                <h1>
+                    <span class="grp-admin-title">Knowledge Commons DC: Admin</span>
+                    <span class="grp-current-page">Login</span>
+                </h1>
+                <div class="grp-module">
+
+                    
+                    
+                    
+
+                    <div class="grp-row">
+                        <label for="id_username" class="required">Username:</label>
+                        <input type="text" name="username" id="id_username" />
+                        
+                    </div>
+                    <div class="grp-row grp-connected">
+                        <label for="id_password" class="required">Password:</label>
+                        <input type="password" name="password" id="id_password" />
+                        <input type="hidden" name="this_is_the_login_form" value="1" />
+                        <input type="hidden" name="next" value="/admin/classes/event/160/\http:/knowledgecommonsdc.org/images/uploads/navy-yard-1936.jpg\/" />
+                        
+                        
+                    </div>
+                    
+                </div>
+            </fieldset>
+            <div class="grp-module grp-submit-row">
+                <ul>
+                    <li><input type="submit" class="grp-button grp-default" value="Log in" /></li>
+                </ul>
+            </div>
+        </form>
+    </div>
+
+            </div>
+
+        </article>
+        
+        <!-- FOOTER -->
+        
+
+    </div>
+</body>
+</html>
