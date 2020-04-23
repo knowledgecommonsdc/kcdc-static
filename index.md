@@ -1,6 +1,4 @@
 ---
 layout: front
-title: "Happy Jekylling!"
+title: "Knowledge Commons DC"
 ---
-
-[class list](/cal)
