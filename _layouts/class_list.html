@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+
+	<link rel="stylesheet" href="http://knowledgecommonsdc.org/static/css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,200italic,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+
+
+
+	<dl class="calendar">
+
+	{% assign classes = site.class_collection | sort: 'dt' %}
+	{% for class in classes reversed %}
+
+		<article class="static_class_listing">
+			<a href="{{ class.url }}">
+				<dt>
+					{{ class.dt | date: "%A, %b %e, %Y" }}
+				</dt>
+				
+				<dd>
+						<h3>{{ class.title }}</h3>
+				</dd>
+			</a>
+		</article>
+		
+	{% endfor %}	
+	
+	</dl>
+
+  </body>
+</html>
