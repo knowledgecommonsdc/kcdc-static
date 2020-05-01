@@ -3,7 +3,7 @@ title: "Level Up Your LinkedIn"
 dt: 2020-05-07
 start: 6:30 p.m.
 end: 8 p.m.
-link: "https://www.eventbrite.com/e/level-up-your-linkedin-tickets-104138089830"
+link: "https://www.eventbrite.com/e/level-up-your-linkedin-tickets-104166809732"
 ---
 
 Find out how to set yourself up for success with a new and improved LinkedIn profile.
